@@ -1,0 +1,72 @@
+<head>
+<div id="gmmBar" style="overflow: hidden; background-color: #333; position: fixed; top: 0; width: 138px; z-index: 100 !important;">
+	<div id="gmmIcons" class="gmmInline">
+		<div id="gmmInfoIcon" class="gmmInline"><i class="material-icons">info</i></div>
+		<div id="gmmSettingsIcon" class="gmmInline"><i class="material-icons">settings</i></div>
+	</div>
+	<div id="gmmArcio" class="gmmInline" style="-webkit-filter: grayscale(100%); filter: grayscale(100%); width: 50px; height: 50px; overflow: hidden; pointer-events: none; display: inline-block;">
+		<iframe src="https://meetmeat.gmeetmeat.xyz/" marginheight="0px" marginwidth="0px" height="600px" width="50px" frameBorder="0"></iframe>
+	</div>
+</div>
+<div id="gmmExpandContainer">
+	<div id="gmmInfo" class="gmmExpandable" style="display: none; width: 30vw;">
+		<p>Welcome to Google Meet Meat, adding a little extra Meat to your Google Meet!</p>
+		<p>Google Meet Meat is an extension to enhance your Google Meet experience. It contains functions and switches that provide extra features to Google Meet.</p>
+		<p>You can click on the extension icon (located on the top right of your browser) in order to create a new Google Meet.</p>
+		<p>This bar on the top-left contains icons for easy navigation.</p>
+		<p>The first menu is this one, accessible via the (i) icon. It provides information about Google Meet Meat.</p> 
+		<p>The second menu is accessible via the gear icon. It is the main hub for access of the features that Google Meet Meat provides.</p> 
+		<p>The third icon is the icon for Arc. (You may not see it if your ad-blocker is enabled.) Websites using Arc load content from devices such as this one instead of from slower servers, creating a faster Internet. With Arc, you contribute a little bandwidth to the Arc network, enabling us to earn money and continue providing this extension to you for free without ads or paid versions. Arc does not impact your user experience, and you can opt out at any time by going to arc.io/optOut.</p>
+		<p>Thank you for reading; get started!</p>
+	</div>
+	<div id="gmmSettings" class="gmmExpandable" style="display: none;">
+		<p><b>Settings</b></p>
+		<table>
+			<tr>
+				<th><span>Automatic captions</span></th>
+				<th><input type="checkbox" id="gmmAutoCaptions"><br></th>
+			</tr>
+			<tr>
+				<th><span>Push to Talk (with Shift Key) </span></th>
+				<th><input type="checkbox" id="gmmPushTalk"><br></th>
+			</tr>
+			<tr>
+				<th><span>Automatic disabled video</span></th>
+				<th><input type="checkbox" id="gmmAutoDisabledVideo"><br></th>
+			</tr>
+
+			<tr>
+				<th><span>Automatic mute</span></th>
+				<th><input type="checkbox" id="gmmAutoMute"><br></th>
+			</tr>
+			<tr>
+				<th><span>Automatic join</span></th>
+				<th><input type="checkbox" id="gmmAutoJoin"><br></th>
+			</tr>
+			<tr>
+				<th><span>Automatic chat</span></th>
+				<th><input type="checkbox" id="gmmAutoChat"><br></th>
+			</tr>
+			<tr>
+				<th><span>Mirror all video</span></th>
+				<th><input type="checkbox" id="gmmMirrorVideo"><br></th>
+			</tr>
+
+			<tr>
+				<th><span>Leave meet shortcut</span></th>
+				<th><input type="checkbox" id="gmmLeaveMeet"><br></th>
+			</tr>
+			<tr id="meetLeaveShortcut" style="display: none;">
+				<th><span>CTRL + </span><input type="text" id="meetLeaveShortcutInput" size="1" maxlength="1"/></th>
+			</tr>
+			<tr>
+				<th><span>Quick emoji bar</span></th>
+				<th><input type="checkbox" id="gmmEmojis"><br></th>
+			</tr>
+			<tr id="emojiTableEncapsulated" style="display: none;">
+				<th><input type="text" id="emojiList" size="17"/></th>
+			</tr>
+		</table>
+	</div>
+</div>
+</head>
